@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+    <S:Header>
+    </S:Header>
+    <S:Body>
+        <ns2:envioDocumentoTransporteRequestElem xmlns:ns2="https://servicos.portaldasfinancas.gov.pt/sgdtws/documentosTransporte/">
+            <TaxRegistrationNumber>770005616</TaxRegistrationNumber>
+            <CompanyName>Empresa</CompanyName>
+            <CompanyAddress>
+                <Addressdetail>Rua</Addressdetail>
+                <City>Localidade</City>
+                <PostalCode>1000-001</PostalCode>
+                <Country>PT</Country>
+            </CompanyAddress>
+            <DocumentNumber>CGT 2024/143699</DocumentNumber>
+            <MovementStatus>N</MovementStatus>
+            <MovementDate>2024-12-01</MovementDate>
+            <MovementType>GT</MovementType>
+            <CustomerTaxID>999999990</CustomerTaxID>
+            <CustomerAddress>
+                <Addressdetail>Rua</Addressdetail>
+                <City>Localidade</City>
+                <PostalCode>1000-001</PostalCode>
+                <Country>PT</Country>
+            </CustomerAddress>
+            <CustomerName>Cliente</CustomerName>
+            <AddressTo>
+                <Addressdetail>Rua</Addressdetail>
+                <City>Localidade</City>
+                <PostalCode>1000-001</PostalCode>
+                <Country>PT</Country>
+            </AddressTo>
+            <AddressFrom>
+                <Addressdetail>Rua</Addressdetail>
+                <City>Localidade</City>
+                <PostalCode>1000-001</PostalCode>
+                <Country>PT</Country>
+            </AddressFrom>
+            <MovementEndTime>2024-12-01T23:59:59</MovementEndTime>
+            <MovementStartTime>2024-12-01T23:00:00</MovementStartTime>
+            <VehicleID>XX-YY-ZZ</VehicleID>
+            <Line>
+                <ProductDescription>Artigo</ProductDescription>
+                <Quantity>10</Quantity>
+                <UnitOfMeasure>UN</UnitOfMeasure>
+                <UnitPrice>100</UnitPrice>
+            </Line>
+        </ns2:envioDocumentoTransporteRequestElem>
+    </S:Body>
+</S:Envelope>
